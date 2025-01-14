@@ -32,12 +32,17 @@
 .menu{
   background-color: #B30015;
   margin-top: 20vh;
+  text-align: center;
 }
 .card-img-size{
   width: 200px;
   height: 200px;
 }
-
+.menu-text{
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 @media ( max-width :500px) {
   .logo-size {
     width: 150px;
