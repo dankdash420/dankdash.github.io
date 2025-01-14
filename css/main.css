@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: white;
+    margin-top: 10px;
+  }
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.logo-size {
+  width: 200px;
+}
+
+.phone-size {
+  width: 70px;
+  margin-right: 10px;
+}
+
+#carouselTarget{
+  margin-inline: 10vw;
+  margin-top: 5vh;
+}
+
+.menu{
+  background-color: #B30015;
+  margin-top: 20vh;
+}
+.card-img-size{
+  width: 200px;
+  height: 200px;
+}
+
+@media ( max-width :500px) {
+  .logo-size {
+    width: 150px;
+  }
+  .img-fluid{
+    max-width: 50%;
+    height: auto;
+  }
+  .phone-size {
+    width: 40px;
+    margin-right: 5px;
+  }
+  .menu{
+    margin-top: 10vh;
+  }
+}
