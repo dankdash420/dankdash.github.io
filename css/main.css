@@ -42,10 +42,10 @@
 @media ( max-width :500px) {
   .logo-size {
     width: 150px;
+    margin-left: 20px;
   }
   .phone-size {
-    width: 40px;
-    margin-right: 5px;
+    width: 55px;
   }
   .menu{
     margin-top: 10vh;
