@@ -51,6 +51,7 @@
 }
 .offcanvas-body{
   margin-top: -10px;
+  padding: 0px;
 }
 
 .video-bg{
@@ -82,10 +83,6 @@
   font-style: normal;
   font-size: 40px;
   color: #B30015;
-}
-
-.offcanvas-body{
-  padding: 0px;
 }
 
 @media ( max-width :500px) {
