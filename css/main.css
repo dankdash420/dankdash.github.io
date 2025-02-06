@@ -32,13 +32,28 @@
 }
 
 .menu-content{
+  margin-top: 40px;
   position: relative; /* Ensure content is placed above the video */
   z-index: 1;
 }
-.card-img-size{
-  width: 200px;
-  height: 200px;
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  padding-top: 60px;
+  margin-top: 60px;
+  padding-bottom: 60px;
 }
+
+.image-container img {
+  max-width: 80%;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px; /* optional */
+}
+
 .menu-text{
   color: #B30015;
   padding-top: 20px;
