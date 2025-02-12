@@ -57,7 +57,9 @@
 #SFV-phone{
   margin-bottom: 20px;
 }
-
+body{ 
+  background-color: black;
+}
 .menu-text{
   color: #B30015;
   padding-top: 20px;
